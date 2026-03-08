@@ -343,12 +343,15 @@ function TodayCard({ cRef, siteInfo }) {
     setIsCoverUp(false)
   }
 
-  /**
-   * 点击卡片跳转的链接
+/**
+   * 点击卡片跳转的链接 - 改为新窗口打开
    * @param {*} e
    */
   function handleCardClick(e) {
-    router.push(link)
+    // 使用原生 window.open 实现新窗口跳转
+    if (link) {
+      window.open(link, '_blank')
+    }
   }
 
   return (
