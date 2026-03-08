@@ -63,47 +63,47 @@ const CONFIG = {
     {
       title_1: 'TG',
       img_1: '/images/heo/tg.png',
-      color_1: '##24A1DE',
+      color_1: '#ffffff',
       title_2: 'wbnb',
       img_2: '/images/heo/wbnb.png',
-      color_2: '#F3BA2F'
+      color_2: '#ffffff'
     },
     {
       title_1: 'wallet',
       img_1: '/images/heo/wallet.png',
-      color_1: '#FF4132',
+      color_1: '#ffffff',
       title_2: 'vpn',
       img_2: '/images/heo/vpn.png',
-      color_2: '#1677FF'
+      color_2: '#ffffff'
     },
     {
       title_1: 'visa',
       img_1: '/images/heo/visa.png',
-      color_1: '#F1F1F1',
+      color_1: '#ffffff',
       title_2: 'usdc',
       img_2: '/images/heo/usdc.png',
-      color_2: '#2775CA'
+      color_2: '#ffffff'
     },
     {
       title_1: 'pdf',
       img_1: '/images/heo/PDF.png',
-      color_1: '#E1251B',
+      color_1: '#ffffff',
       title_2: 'pass',
       img_2: '/images/heo/pass.png',
-      color_2: '#3D4D5C'
+      color_2: '#ffffff'
     },
     {
       title_1: 'mastercard',
       img_1: '/images/heo/mastercard.png',
-      color_1: '#222222',
+      color_1: '#ffffff',
       title_2: 'kraken',
       img_2: '/images/heo/kraken.png',
-      color_2: '#5741D9'
+      color_2: '#ffffff'
     },
     {
       title_1: 'geonix',
       img_1: '/images/heo/geonix.png',
-      color_1: '#F7CB4F',
+      color_1: '#ffffff',
       title_2: 'HTML',
       img_2: '/images/heo/202372b4d760fd8a497d442140c295655426070302.webp',
       color_2: '#e9572b'
@@ -114,7 +114,7 @@ const CONFIG = {
       color_1: '#df5b40',
       title_2: 'AI',
       img_2: '/images/heo/Ai.png',
-      color_2: '#FF9A00'
+      color_2: '#ffffff'
     }
   ],
 
