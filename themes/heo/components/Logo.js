@@ -9,7 +9,8 @@ const Logo = props => {
     <SmartLink href='/' passHref legacyBehavior>
       <div className='flex flex-nowrap items-center cursor-pointer font-extrabold'>
         <LazyImage
-          src={siteInfo?.icon}
+          // 修改后（指向你 public 文件夹下的 logo.png）
+          src='/logo.png'
           width={24}
           height={24}
           alt={siteConfig('AUTHOR')}
