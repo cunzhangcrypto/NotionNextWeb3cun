@@ -11,7 +11,7 @@ export default function PoweredBy(props) {
       <a
         href='https://geonix.com/?partner_link=hr7qyBUuqy'
         className='underline justify-start'>
-        Geonix {siteConfig('VERSION')}
+        Geonix
       </a>
       .
     </div>
