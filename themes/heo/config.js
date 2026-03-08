@@ -105,13 +105,13 @@ const CONFIG = {
       img_1: '/images/heo/geonix.png',
       color_1: '#ffffff',
       title_2: 'HTML',
-      img_2: '/images/heo/202372b4d760fd8a497d442140c295655426070302.webp',
-      color_2: '#e9572b'
+      img_2: '/images/heo/usdc.png',
+      color_2: '#ffffff'
     },
     {
       title_1: 'Git',
-      img_1: '/images/heo/2023ffa5707c4e25b6beb3e6a3d286ede4c6071102.webp',
-      color_1: '#df5b40',
+      img_1: '/images/heo/visa.png',
+      color_1: '#ffffff',
       title_2: 'AI',
       img_2: '/images/heo/Ai.png',
       color_2: '#ffffff'
