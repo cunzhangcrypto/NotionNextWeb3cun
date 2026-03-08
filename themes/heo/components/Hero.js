@@ -398,13 +398,13 @@ function TodayCard({ cRef, siteInfo }) {
 
         {/* 封面图 */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={siteInfo?.pageCover}
-          id='today-card-cover'
-          className={`${
-            isCoverUp ? '' : ' pointer-events-none'
-          } hover:scale-110 duration-1000 object-cover cursor-pointer today-card-cover absolute w-full h-full top-0`}
-        />
+      <img
+        src={siteConfig('HEO_HERO_COVER', siteInfo?.pageCover, CONFIG)}
+        id='today-card-cover'
+        className={`${
+        isCoverUp ? '' : ' pointer-events-none'
+      } hover:scale-110 duration-1000 object-cover cursor-pointer today-card-cover absolute w-full h-full top-0`}
+      />
       </div>
     </div>
   )
