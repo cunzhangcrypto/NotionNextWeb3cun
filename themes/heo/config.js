@@ -24,6 +24,7 @@ const CONFIG = {
   HEO_HERO_TITLE_4: '战略合作 / Geonix',
   HEO_HERO_TITLE_5: '全球顶级机房与住宅 IP，网络安全出海首选',
   HEO_HERO_TITLE_LINK: 'https://geonix.com/?partner_link=hr7qyBUuqy',
+  HEO_HERO_COVER: '/geonix-proxy-bg.png',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '看看村长都有些啥',
 
@@ -35,7 +36,7 @@ const CONFIG = {
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '推荐',
   HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
-  HERO_RECOMMEND_COVER: '/geonix-proxy-bg.png', // 英雄区右侧图片
+  // HERO_RECOMMEND_COVER: '/geonix-proxy-bg.png', // 英雄区右侧图片
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
