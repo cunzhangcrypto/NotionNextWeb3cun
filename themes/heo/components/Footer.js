@@ -39,11 +39,6 @@ const Footer = () => {
               className='underline font-semibold dark:text-gray-300 '>
               {siteConfig('AUTHOR')}
             </a>
-        {/* 新增：合作伙伴链接 */}
-            <span className='mx-1'> | </span>
-            <a href="https://geonix.com/?partner_link=hr7qyBUuqy" target="_blank" className='underline text-blue-500'>
-            Partnered with Geonix
-            </a>
             {BIO && <span className='mx-1'> | {BIO}</span>}
           </div>
         </div>
