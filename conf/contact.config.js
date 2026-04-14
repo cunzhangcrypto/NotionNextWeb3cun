@@ -3,12 +3,7 @@
  */
 module.exports = {
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
-  CONTACT_EMAIL:
-    (process.env.NEXT_PUBLIC_CONTACT_EMAIL &&
-      btoa(
-        unescape(encodeURIComponent(process.env.NEXT_PUBLIC_CONTACT_EMAIL))
-      )) ||
-    'cunzhangcrypto@gmail.com', // 邮箱地址 
+  CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'cunzhangcrypto@gmail.com', // 邮箱地址 
   CONTACT_WEIBO: process.env.NEXT_PUBLIC_CONTACT_WEIBO || '', // 你的微博个人主页
   CONTACT_TWITTER: process.env.NEXT_PUBLIC_CONTACT_TWITTER || 'https://x.com/intent/follow?screen_name=web3cun', // 你的twitter个人主页
   CONTACT_GITHUB: process.env.NEXT_PUBLIC_CONTACT_GITHUB || 'https://github.com/cunzhangcrypto', // 你的github个人主页 
