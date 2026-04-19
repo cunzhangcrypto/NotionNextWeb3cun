@@ -60,7 +60,10 @@ const BLOG = {
   // 侧栏布局 是否反转(左变右,右变左) 已支持主题: hexo next medium fukasawa example
   LAYOUT_SIDEBAR_REVERSE:
     process.env.NEXT_PUBLIC_LAYOUT_SIDEBAR_REVERSE || false,
-
+  
+// 引入专门针对嵌入式媒体优化的加速脚本
+CUSTOM_EXTERNAL_JS: ['https://cdn.jsdelivr.net/npm/iframe-resizer@4.3.2/js/iframeResizer.min.js'],
+  
   // 欢迎语打字效果,Hexo,Matery主题支持, 英文逗号隔开多个欢迎语。
   GREETING_WORDS:
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
