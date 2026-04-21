@@ -16,7 +16,7 @@ const BLOG = {
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '村长', // 您的昵称 
   BIO: process.env.NEXT_PUBLIC_BIO || '分享区块链、AI、网络媒体相关知识，提供技术咨询与视频教程服务。', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://cunzhangblog.com', // 网站地址
+  // LINK: process.env.NEXT_PUBLIC_LINK || 'https://cunzhangblog.com', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客, web3村长, 软件分享, 互联网资源, 区块链, 网站搭建', // 网站关键词 英文逗号隔开
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXX
@@ -24,7 +24,8 @@ const BLOG = {
   BEI_AN_GONGAN: process.env.NEXT_PUBLIC_BEI_AN_GONGAN || '', // 公安备案号，例如 '浙公网安备3xxxxxxxx8号'
 
   // RSS订阅
-  ENABLE_RSS: process.env.NEXT_PUBLIC_ENABLE_RSS || true, // 是否开启RSS订阅功能
+  ENABLE_RSS: true, // 是否开启RSS订阅功能
+  LINK: 'https://www.cunzhangblog.com',
 
   // 其它复杂配置
   // 原配置文件过长，且并非所有人都会用到，故此将配置拆分到/conf/目录下, 按需找到对应文件并修改即可
@@ -32,7 +33,7 @@ const BLOG = {
   ...require('./conf/contact.config'), // 作者联系方式配置
   ...require('./conf/post.config'), // 文章与列表配置
   ...require('./conf/analytics.config'), // 站点访问统计
-  ...require('./conf/image.config'), // 网站图片相关配置
+  ...require('./conf/image.config'), // 网站图片相关配置a
   ...require('./conf/font.config'), // 网站字体
   ...require('./conf/right-click-menu'), // 自定义右键菜单相关配置
   ...require('./conf/code.config'), // 网站代码块样式
