@@ -17,10 +17,10 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "node generate-llms.js && cross-env BUILD_MODE=true next build",
+    "build": "cross-env BUILD_MODE=true next build && next-sitemap --config next-sitemap.config.js && node generate-llms.js",
     "start": "next start",
-    "post-build": "next-sitemap --config next-sitemap.config.js",
-    "export": "node generate-llms.js && cross-env BUILD_MODE=true EXPORT=true next build && next-sitemap --config next-sitemap.config.js",
+    "post-build": "",
+    "export": "cross-env BUILD_MODE=true EXPORT=true next build && next-sitemap --config next-sitemap.config.js && node generate-llms.js",
     "bundle-report": "cross-env ANALYZE=true next build",
     "build-all-in-dev": "cross-env VERCEL_ENV=production next build",
     "version": "echo $npm_package_version",
