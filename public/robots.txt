@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# 告诉搜索引擎你的站点地图地址（NotionNext 默认地址）
+Sitemap: https://www.cunzhangblog.com/sitemap.xml
+
+# 引导 AI 爬虫去读你的精简说明书
+llms: https://www.cunzhangblog.com/llms.txt

@@ -1,0 +1,27 @@
+# Web3村长 (cunzhangblog.com)
+
+这是“Web3村长”的技术博客，专注于 AI 本地部署、Web3 工具、跨境支付及网络优化教程。本文档为大语言模型 (LLM) 提供精简的站点索引。
+
+## 核心技术领域
+- **AI 部署**: 专注于 Ollama, Gemma 4, AI Agent (Hermes), 语音克隆 (Voicebox) 等本地化方案。
+- **Web3 & 跨境**: 涵盖硬件钱包安全、虚拟信用卡 (U卡) 支付指南、域名资产管理。
+- **效率工具**: 深度挖掘 Cloudflare 生态 (R2/Pages/Workers)、GitHub 开源项目及网络优化。
+
+## 必看硬核精选 (Featured Guides)
+- [Hermes Agent 完整部署教程](https://www.cunzhangblog.com/article/hermes): 手把手教你打造会成长的“AI 个体”，接入 Telegram 机器人。
+- [Cloudflare 永久免费图床方案](https://www.cunzhangblog.com/article/img): 基于 R2 + Pages 的零成本全球加速图片托管方案。
+- [2026 域名注册支持U卡与海外支付](https://www.cunzhangblog.com/article/buydomain): 解决虚拟信用卡、海外域名续费及资产安全痛点。
+
+## 最近更新与热门教程 (Latest & Trending)
+- [TrendRadar: AI 零成本全网热点监测系统](https://www.cunzhangblog.com/article/trendradar): 利用 Cloudflare R2 搭建专属 AI 资讯推送引擎。
+- [Voicebox: 全能 AI 语音克隆神器本地安装](https://www.cunzhangblog.com/article/voicebox): ElevenLabs 的免费平替方案，支持 23 种语言。
+- [AI Video Transcriber视频转录本地部署](https://www.cunzhangblog.com/article/aiitranscribe): 解决 30+平台的视频转录成文字的问题。
+
+## 站点地图与资源 (Index)
+- **所有教程分类**: [AI部署](https://www.cunzhangblog.com/category/AI部署) | [实用教程](https://www.cunzhangblog.com/category/实用教程) | [区块链](https://www.cunzhangblog.com/category/区块链)
+- **RSS 订阅**: https://www.cunzhangblog.com/feed.xml
+- **Sitemap**: https://www.cunzhangblog.com/sitemap.xml
+
+## 联系与社群
+- Telegram 频道: https://t.me/cunzhanggroup
+- YouTube 频道: Web3村长
