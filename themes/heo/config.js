@@ -8,8 +8,8 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到村长的博客', url: '#' },
-    { title: '喜欢我的内容就收藏一下吧！', url: '#' }
+    { title: '欢迎来到村长的博客', url: '/about' },
+    { title: '喜欢我的内容就收藏一下吧！', url: '' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -20,7 +20,7 @@ const CONFIG = {
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: '分享资源',
   HEO_HERO_TITLE_2: '干货知识教程',
-  HEO_HERO_TITLE_3: '#',
+  HEO_HERO_TITLE_3: '带你探索互联网新机会',
   HEO_HERO_TITLE_4: '战略合作 / Geonix',
   HEO_HERO_TITLE_5: '全球顶级机房与住宅IP|出海首选',
   HEO_HERO_TITLE_LINK: 'https://geonix.com/?partner_link=hr7qyBUuqy',
@@ -38,25 +38,13 @@ const CONFIG = {
   HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
   // HERO_RECOMMEND_COVER: '/geonix-proxy-bg.png', // 英雄区右侧图片
 
-  // 右侧个人资料卡牌欢迎语，点击可自动切换
-  HEO_INFOCARD_GREETINGS: [
-    '来玩个小游戏',
-    '天王盖地虎',
-    '我猜你会答：宝塔镇河妖',
-    '宫庭玉液酒',
-    '你在想：180一杯',
-    '这啥破玩意儿，没意思',
-    '开个小玩笑，这里啥都没有',
-    '别点了...去看看其它的'
-  ],
-
   // 个人资料底部按钮
   HEO_INFO_CARD_URL1: '/about',
   HEO_INFO_CARD_ICON1: 'fas fa-user',
-  HEO_INFO_CARD_URL2: '#',
+  HEO_INFO_CARD_URL2: 'https://github.com/cunzhangcrypto',
   HEO_INFO_CARD_ICON2: 'fab fa-github',
-  HEO_INFO_CARD_URL3: '#',
-  HEO_INFO_CARD_TEXT3: '了解更多',
+  HEO_INFO_CARD_URL3: 'https://www.youtube.com/@cunzhangcrypto',
+  HEO_INFO_CARD_TEXT3: 'Youtube',
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
@@ -148,7 +136,7 @@ const CONFIG = {
 
   HEO_ARTICLE_ADJACENT: true, // 显示上一篇下一篇文章推荐
   HEO_ARTICLE_COPYRIGHT: true, // 显示文章版权声明
-  HEO_ARTICLE_NOT_BY_AI: false, // 显示非AI写作
+  HEO_ARTICLE_NOT_BY_AI: true, // 显示非AI写作
   HEO_ARTICLE_RECOMMEND: true, // 文章关联推荐
 
   HEO_WIDGET_LATEST_POSTS: true, // 显示最新文章卡
