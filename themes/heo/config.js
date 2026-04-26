@@ -38,6 +38,17 @@ const CONFIG = {
   HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
   // HERO_RECOMMEND_COVER: '/geonix-proxy-bg.png', // 英雄区右侧图片
 
+    // 右侧个人资料卡牌欢迎语，点击可自动切换
+  HEO_INFOCARD_GREETINGS: [
+    '你好！我是',
+    '🔍 分享与热心帮助',
+    '🤝 专修交互与设计',
+    '🏃 脚踏实地行动派',
+    '🏠 智能家居小能手',
+    '🤖️ 数码科技爱好者',
+    '🧱 团队小组发动机'
+  ],
+
   // 个人资料底部按钮
   HEO_INFO_CARD_URL1: '/about',
   HEO_INFO_CARD_ICON1: 'fas fa-user',
