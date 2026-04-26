@@ -9,7 +9,7 @@ const CONFIG = {
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
     { title: '欢迎来到村长的博客', url: '/about' },
-    { title: '喜欢我的内容就收藏一下吧！', url: '' }
+    { title: '喜欢我的内容就收藏一下吧！', url: 'https://t.me/cunzhanggroup' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -38,15 +38,14 @@ const CONFIG = {
   HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
   // HERO_RECOMMEND_COVER: '/geonix-proxy-bg.png', // 英雄区右侧图片
 
-    // 右侧个人资料卡牌欢迎语，点击可自动切换
+// 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
-    '你好！我是',
-    '🔍 分享与热心帮助',
-    '🤝 专修交互与设计',
-    '🏃 脚踏实地行动派',
-    '🏠 智能家居小能手',
-    '🤖️ 数码科技爱好者',
-    '🧱 团队小组发动机'
+    '你好！我是村长',
+    '🔍 分享Web3资源与教程',
+    '🤝 专注AI工具实测',
+    '🚀 互联网创业先行者',
+    '💻 技术博客内容创作者',
+    '📈 探索数字化生存新机会'
   ],
 
   // 个人资料底部按钮
