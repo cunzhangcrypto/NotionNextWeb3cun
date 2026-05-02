@@ -1,5 +1,17 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/\\[prefix\\]",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/category/\\[category\\]",
+      "destination": "/",
+      "permanent": true
+    }
+  ],
   "headers": []
 }
